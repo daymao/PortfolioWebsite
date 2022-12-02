@@ -9,7 +9,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background: lightblue;
+    background: linear-gradient(to right,#6b1e9e 0%,#1f5ba0 100%);
     color: rgba(245, 245, 245, 0.815);
     letter-spacing: 0.075rem;
 }
@@ -110,8 +110,8 @@ button:hover{
 }
 
 .box{
-    width: 500px;
-    height: 325px;
+    width: 550px;
+    height: 350px;
     background: rgb(50, 101, 117);
     border-radius: 10px;
     margin: auto;
@@ -130,11 +130,19 @@ button:hover{
 }
 
 #project1:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 #project2:hover{
-    opacity: 0.7;
+    opacity: 0.6;
+}
+
+#project3:hover{
+    opacity: 0.6;
+}
+
+#project4:hover{
+    opacity: 0.6;
 }
 
 #icon:hover{
@@ -153,4 +161,24 @@ button:hover{
     opacity: 0.75;
     cursor: pointer;
     transition: 0.2s ease-in;
+}
+
+#LG{
+    margin-top: 15px;
+}
+
+.LinkedInLink, .GithubLink {
+    display: inline;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.LinkedInLink:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+}
+
+.GithubLink:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
 }
